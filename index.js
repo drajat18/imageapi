@@ -7,7 +7,7 @@ const cors = require("cors"); // Import the cors middleware
 dotenv.config();
 
 // Access your API key as an environment variable
-const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+const genAI = new GoogleGenerativeAI('AIzaSyALrRXzms00PQ_FGsXacDKFIvtfa68yeNg');
 
 const app = express();
 const upload = multer({
